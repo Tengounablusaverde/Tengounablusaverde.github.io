@@ -1,0 +1,277 @@
+principal un {
+	color: heredar;
+	texto-decoración: ninguno;
+	fuente: heredar;
+}
+
+principal a: flotar {
+	color: #f06;
+}
+
+
+/* TODO: Integrar con lo anterior */
+
+ul.conversaciones > li {
+	relleno: .8em 0;
+	borde inferior: 1px plata maciza;
+	sangría de texto: 0;
+}
+
+.talks > li:último-hijo {
+	borde inferior: 5px sólido #eee;
+}
+
+.habla > li:antes {
+	contenido: ninguno;
+}
+
+	.habla h2,
+	.habla h3,
+	dirección de .habla,
+	.habla .comentario {
+		margen izquierdo: 130px;
+	}
+
+	.habla h2,
+	.habla h3 {
+		tamaño de fuente: 100%;
+	}
+
+	.habla h2,
+	.habla h3,
+	.habla p {
+		margen superior: 0;
+		margen inferior: 0;
+	}
+
+	.habla h2 {
+
+	}
+
+	.habla h3 {
+		peso de fuente: normal;
+		altura de línea: 1.2;
+		margen inferior: .6em;
+	}
+
+	.conversaciones .fecha {
+		flotador izquierdo;
+		margen superior: -1.9em;
+		color: #aaa;
+		variante de fuente: versalitas;
+	}
+
+	dirección de .habla,
+	.habla .comentario {
+		tamaño de fuente: 75%;
+		estilo de fuente:normal;
+	}
+
+h1#pasado, h1#próximo {
+	margen superior: 1em;
+}
+
+	h1#recuento pasado,
+	h1#próximas .cuenta {
+		peso de fuente: normal;
+	}
+
+.habla artículo[propiedad="evento"] {
+	relleno: .8em 0;
+	borde inferior: 1px plata maciza;
+	sangría de texto: 0;
+	estilo de lista: ninguno;
+}
+
+.habla artículo[propiedad="evento"]:último hijo {
+	borde inferior: 5px sólido #eee;
+}
+
+.habla artículo[propiedad="evento"]:antes {
+	contenido: ninguno;
+}
+
+	.habla artículo h1,
+	.habla artículo h2,
+	dirección de .habla,
+	.habla .comentario {
+		margen izquierdo: 130px;
+	}
+
+	.habla artículo h1,
+	.habla artículo h2 {
+		tamaño de fuente: 100%;
+	}
+
+	.habla artículo h1,
+	.habla artículo h2,
+	.habla p {
+		margen superior: 0;
+		margen inferior: 0;
+	}
+
+	.habla artículo h1 {
+		tamaño de fuente: 120%;
+	}
+
+		.habla artículo h1 .tipo {
+			color: gris;
+			color: rgba(0,0,0,.6);
+			peso de fuente: normal;
+			estilo de fuente: cursiva;
+		}
+
+		.habla artículo h1 span.type:before {
+			contenido: ' (';
+		}
+
+		.habla artículo h1 span.type:después de {
+			contenido: ')';
+		}
+
+		.habla artículo h1 a {
+			pantalla: bloque en línea;
+			alineación vertical: .1em;
+			relleno: .4em .4em .25em;
+			margen izquierdo: .5em;
+			color blanco;
+			sombra de texto: 0;
+			familia de fuentes: var(--fuente-cuerpo);
+			tamaño de fuente: 75%;
+			altura de línea: 1;
+			transformación de texto: mayúsculas;
+			borde-radio: .3em;
+		}
+
+		.habla artículo h1 a.diapositivas {
+			fondo: naranja;
+		}
+
+		.habla artículo h1 a.detalles {
+			fondo: #0bd;
+		}
+
+		.habla artículo h1 a.video {
+			fondo: amarillo verdoso;
+		}
+
+		.habla artículo h1 a: hover {
+			fondo: #f06;
+			color blanco;
+		}
+
+	.habla artículo h2 {
+		fuente: heredar;
+		peso de fuente: normal;
+		margen inferior: .6em;
+	}
+
+	.conversaciones .fecha {
+		flotador izquierdo;
+		margen superior: -1.9em;
+		color: #aaa;
+		variante de fuente: versalitas;
+	}
+
+	dirección de .habla,
+	.habla .comentario {
+		tamaño de fuente: 75%;
+		estilo de fuente:normal;
+	}
+
+	.habla dirección {
+	}
+
+	.dirección de conversaciones:antes de {
+		pantalla: bloque en línea;
+		margen derecho: .4em;
+		alineación vertical: -1px;
+	}
+
+	.habla dirección:no([clase*="bandera-"]):antes de {
+		contenido: url(banderas/online.png);
+		alineación vertical:-3px;
+	}
+
+	.habla address.flag-nl:before { content: url(flags/nl.png); }
+	.habla address.flag-nz:before { content: url(flags/nz.png); }
+	.habla address.flag-gb:before { contenido: url(flags/gb.png); }
+	.talks address.flag-se:before { content: url(flags/se.png); }
+	.dirección de conversaciones.flag-fi:before { contenido: url(flags/fi.png); }
+	.dirección de conversaciones.flag-ru:before { content: url(flags/ru.png); }
+	.talks address.flag-no:before { content: url(flags/no.png); }
+	.talks address.flag-pl:before { content: url(flags/pl.png); }
+	.habla address.flag-gr:before { content: url(flags/gr.png); }
+	.habla address.flag-ch:before { content: url(flags/ch.png); }
+	.talks address.flag-de:before { content: url(flags/de.png); }
+	.talks address.flag-it:before { content: url(flags/it.png); }
+	.talks address.flag-us:before { content: url(flags/us.png); }
+	.dirección de conversaciones.flag-au:before { content: url(flags/au.png); }
+	.habla address.flag-cz:before { contenido: url(flags/cz.png); }
+	.talks address.flag-ca:before { content: url(flags/ca.png); }
+	.habla dirección.flag-cl:before { contenido: url(flags/cl.png); }
+	.habla address.flag-br:before { contenido: url(flags/br.png); }
+	.talks address.flag-be:before { content: url(flags/be.png); }
+	.habla address.flag-fr:before { content: url(flags/fr.png); }
+	.dirección de conversaciones.flag-ph:before { content: url(flags/ph.png); }
+	.habla address.flag-at:before { content: url(flags/at.png); }
+	.talks address.flag-es:before { content: url(flags/es.png); }
+	.dirección de conversaciones.flag-hu:before { content: url(flags/hu.png); }
+	.talks address.flag-mx:before { content: url(flags/mx.png); }
+	.talks address.flag-in:before { content: url(flags/in.png); }
+	.habla dirección.bandera-uy:antes { contenido: url(flags/uy.png); }
+	.habla address.flag-il:before { content: url(flags/il.png); }
+	.habla address.flag-sg:before { content: url(flags/sg.png); }
+	.habla dirección.flag-cn:before { contenido: url(flags/cn.png); }
+	.talks address.flag-jp:before { content: url(flags/jp.png); }
+	.habla address.flag-at:before { content: url(flags/at.png); }
+	.dirección de conversaciones.flag-pt:before { content: url(flags/pt.png); }
+
+	.habla .comenta,
+	.habla .comenta un {
+		color gris;
+	}
+
+	.habla .comenta un {
+		decoración de texto: subrayado;
+	}
+
+	.habla .comenta a:antes {
+		contenido: ninguno;
+	}
+
+h1[propiedad=hablar] {
+	ancho: -webkit-fit-content;
+	ancho: ajuste-contenido;
+}
+
+[propiedad="hablar"] .eliminar {
+	derecha: -1,5em;
+}
+
+h1 + .mv-añadir-hablar {
+	margen izquierdo: 130px;
+	margen inferior: .8em;
+}
+
+.mv-bar {
+	margen superior: 1em;
+	filtro de fondo: ninguno;
+	margen izquierdo: -60px;
+}
+
+	.mv-barra .clear {
+		pantalla: ninguno;
+	}
+
+	.mv-wrapper.can-login .mv-bar {
+		pantalla: ninguno;
+	}
+
+	.mv-bar a[href^="https://github.com"] {
+		color blanco;
+	}
+
+		.mv-bar a[href^="https://github.com"]:antes de {
+			contenido: ninguno;
+		}
